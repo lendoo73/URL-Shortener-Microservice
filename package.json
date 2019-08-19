@@ -1,5 +1,6 @@
 {
 	"name": "shorturl",
+  "author": "lendoo",
 	"version": "0.0.1",
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
@@ -9,9 +10,10 @@
 	"dependencies": {
 		"express": "^5.0.0-alpha.2",
 		"mongodb": "^2.2.5",
-		"mongoose": "^4.5.7",
+		"mongoose": "^5.6.9",
 		"cors": "^2.8.1",
-		"body-parser": "^1.15.2"
+		"body-parser": "^1.15.2",
+    "open": "^6.4.0"
 	},
 	"engines": {
 		"node": "4.4.5"
